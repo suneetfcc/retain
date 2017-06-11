@@ -1,0 +1,8 @@
+.notes > li {
+    background-color: lightslategray;
+    color: white;
+    display: inline-block;
+    width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
