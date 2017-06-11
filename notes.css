@@ -1,8 +1,13 @@
-.notes > li {
-    background-color: lightslategray;
-    color: white;
+#notes > li {
     display: inline-block;
-    width: 100px;
+    width: 200px;
+    height: 100px;
+    margin: 20px 10px 0px;
+    padding:10px;
+    border-radius: 5px;
+    background-color: yellowgreen;
+    font-size: 1.3rem;
     overflow: hidden;
     text-overflow: ellipsis;
+    transition: opacity .3s ease-in;
 }
